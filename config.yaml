@@ -1,0 +1,12 @@
+author:
+  displayName: Jonathan Lurie
+  biography: I'm a scientific software developer, with interests in computer graphics, but also film photography, cycling and being in the mountains.
+  picture: https://me.jonathanlurie.fr/images/avatar.jpg
+  website: https://jonathanlurie.fr
+  twitter: jonathanlurie
+
+// This section is not mandatory but it will show a list of articles in the profile page.
+// Otherwise not article will be listed, though they will still be accessible through URL
+articles:
+  - getting-started
+  - dummy-article
