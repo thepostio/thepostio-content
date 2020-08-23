@@ -5,8 +5,8 @@ author:
   website: https://jonathanlurie.fr
   twitter: jonathanlurie
 
-// This section is not mandatory but it will show a list of articles in the profile page.
-// Otherwise not article will be listed, though they will still be accessible through URL
+# This section is not mandatory but it will show a list of articles in the profile page.
+# Otherwise not article will be listed, though they will still be accessible through URL
 articles:
   - getting-started
   - dummy-article
