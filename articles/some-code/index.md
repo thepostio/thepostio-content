@@ -16,7 +16,7 @@ export function doThing(someArg) {
   if (someArg === 42) {
     return false
   } else {
-    console.log('This is a nice message.')
+    console.log('This is a nice message!')
     return true
   }
 }
@@ -28,7 +28,7 @@ def do_thing(some_arg):
   if some_arg == 42:
     return False
   else:
-    print("This is a nicee message")
+    print("This is a nicee message!")
     return True
 ```
 
