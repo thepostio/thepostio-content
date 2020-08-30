@@ -1,5 +1,5 @@
 ---
-title: Gatting Started
+title: Getting Started
 date: 2020-08-22
 excerpt: Setup everything and get ready to write content!
 cover: cover.jpg
