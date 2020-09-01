@@ -1,20 +1,246 @@
 ---
 title: Dummy article
 date: 2020-08-23
-excerpt: This is a dummy article
+excerpt: This is a dummy article showing how Markdown works
+
 cover: dummycover.jpg
 tags:
   - test
   - dummy content
 ---
 
-This is a dummy article.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae bibendum lectus. In hac habitasse platea dictumst. Donec eleifend arcu nisi, eget rhoncus lorem imperdiet in. Pellentesque porta luctus nisi sed rutrum. Duis pharetra ultrices arcu, eu porta risus vehicula vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi dolor, maximus cursus velit non, tincidunt eleifend augue. Quisque elementum dapibus ex, eget bibendum sem lobortis malesuada. Donec convallis condimentum blandit.
+*This Markdown sample was taken from [there](https://markdown-it.github.io/)*  
 
-Maecenas tristique enim nec erat elementum, eget pretium nulla euismod. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent convallis ex ac mauris sollicitudin accumsan. Ut sed ullamcorper dui, eget volutpat nisi. Aliquam scelerisque a purus mattis rhoncus. Nulla quis augue laoreet dui eleifend sagittis. Donec commodo auctor eleifend. In suscipit molestie condimentum. Ut consectetur lacus eu quam imperdiet, et mattis lectus iaculis. Pellentesque venenatis viverra nibh. Proin egestas gravida sagittis. Suspendisse porta quam ligula, a suscipit justo elementum a. Aliquam erat volutpat. Aliquam lobortis bibendum nisl ultricies lacinia.
+# h1 Heading 8-)
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
 
-In eleifend neque id aliquam molestie. Sed elementum bibendum fermentum. Suspendisse ornare molestie ante, sit amet sollicitudin sem fringilla vitae. Phasellus scelerisque magna ut accumsan volutpat. Nunc elementum placerat nisl, ac mattis nisl malesuada non. Nam sit amet tincidunt neque, quis vulputate ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel lacus varius, blandit massa ut, facilisis quam. Ut urna erat, sagittis in felis a, feugiat aliquet magna. Nam auctor nisl nibh, a gravida purus cursus vitae. Integer suscipit, ipsum nec ultricies mollis, lectus libero dignissim dolor, vel tempus eros lacus mattis diam. Pellentesque tortor dolor, rhoncus in est sed, mattis condimentum risus. In euismod, justo in dictum laoreet, nisl ipsum pharetra libero, vel porttitor mi ligula ac libero.
 
-Proin maximus pulvinar turpis eget egestas. Aliquam vel est eu augue luctus efficitur. In et neque porta tellus porta condimentum. Aenean vitae tincidunt sapien. Proin a consequat augue, ac sodales leo. Vivamus interdum arcu non dui iaculis hendrerit. Fusce sed lorem elit. Sed sit amet cursus turpis.
+## Horizontal Rules
 
-Sed sed lorem vel odio tincidunt commodo. Aenean ullamcorper lectus vitae nibh semper porta. In risus nulla, porttitor at auctor eu, consectetur id mi. Aliquam placerat hendrerit volutpat. Nullam ligula massa, lobortis sit amet neque id, vehicula molestie justo. Nam gravida laoreet est, id aliquet est suscipit rhoncus. Nunc nulla arcu, posuere gravida pharetra pretium, imperdiet ac metus. Duis vel fermentum diam. Nam non blandit arcu. Ut dapibus sed magna eu fringilla. Vivamus eget libero vitae dolor pellentesque tincidunt. Ut non sodales justo. In hac habitasse platea dictumst. Morbi ipsum justo, ultrices at hendrerit at, ullamcorper ultrices urna. Donec id pharetra dolor, ac fringilla mi.
+___
+
+---
+
+***
+
+
+## Typographic replacements
+
+Enable typographer option to see result.
+
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
+test.. test... test..... test?..... test!....
+
+!!!!!! ???? ,,  -- ---
+
+"Smartypants, double quotes" and 'single quotes'
+
+
+## Emphasis
+
+**This is bold text**
+
+__This is bold text__
+
+*This is italic text*
+
+_This is italic text_
+
+~~Strikethrough~~
+
+
+## Blockquotes
+
+
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+
+## Lists
+
+Unordered
+
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
+1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
+
+Start numbering with offset:
+
+57. foo
+1. bar
+
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
+
+```
+Sample text here...
+```
+
+Syntax highlighting
+
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+```
+
+## Tables
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+Right aligned columns
+
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+
+## Links
+
+[link text](http://dev.nodeca.com)
+
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+
+
+## Images
+
+![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
+Like links, Images also have a footnote style syntax
+
+![Alt text][id]
+
+With a reference later in the document defining the URL location:
+
+[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+
+
+## Plugins
+
+The killer feature of `markdown-it` is very effective support of
+[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
+
+
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+
+> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
+>
+> Shortcuts (emoticons): :-) :-( 8-) ;)
+
+see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
+
+
+### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+
+- 19^th^
+- H~2~O
+
+
+### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
+
+++Inserted text++
+
+
+### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
+
+==Marked text==
+
+
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+
+Footnote 1 link[^first].
+
+Footnote 2 link[^second].
+
+Inline footnote^[Text of inline footnote] definition.
+
+Duplicated footnote reference[^second].
+
+[^first]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^second]: Footnote text.
+
+
+### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
+
+Term 1
+
+:   Definition 1
+with lazy continuation.
+
+Term 2 with *inline markup*
+
+:   Definition 2
+
+        { some code, part of Definition 2 }
+
+    Third paragraph of definition 2.
+
+_Compact style:_
+
+Term 1
+  ~ Definition 1
+
+Term 2
+  ~ Definition 2a
+  ~ Definition 2b
+
+
+### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
+
+This is HTML abbreviation example.
+
+It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
+
+*[HTML]: Hyper Text Markup Language
+
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
+
+::: warning
+*here be dragons*
+:::
