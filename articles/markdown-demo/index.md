@@ -1,5 +1,5 @@
 ---
-title: Dummy article
+title: Markdown Demo
 date: 2020-08-23
 excerpt: This is a dummy article showing how Markdown works
 

@@ -10,5 +10,6 @@ author:
 # Otherwise not article will be listed, though they will still be accessible through URL
 articles:
   - getting-started
-  - dummy-article
+  - no-cover
+  - markdown-demo
   - some-code
