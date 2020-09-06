@@ -1,7 +1,7 @@
 ---
 title: An Article Has No Cover
 date: 2020-09-06
-exerpt: This is demo of what happens when you choose not to have a cover image on your article
+excerpt: This is demo of what happens when you choose not to have a cover image on your article
 ---
 
 # So what's happening here?
