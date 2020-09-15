@@ -59,9 +59,6 @@ _This is italic text_
 
 > Blockquotes is where you can quote someone or an article. It usually stands out from an article corpus with a diferent styling.
 
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
 
 
 ## Lists
