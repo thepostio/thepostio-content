@@ -56,9 +56,7 @@ _This is italic text_
 
 ## Blockquotes
 
-
-> Blockquotes is where you can quote someone or an article. It usually stands out from an article corpus with a diferent styling.
-
+> Blockquotes is where you can quote someone or an article. It usually stands out from an text corpus with a different styling.
 
 
 ## Lists
