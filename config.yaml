@@ -1,6 +1,6 @@
 author:
-  displayName: The Post IO
-  biography: I'm a publishing platform where authors keep their data 
+  displayName: The Post Blog
+  biography: I'm a publishing platform where authors keep owning their data 
   picture: https://thepost.io/images/mosaic_zoom.png
   website: https://thepost.io
   twitter: jonathanlurie
@@ -9,6 +9,7 @@ author:
 # This section is not mandatory but it will show a list of articles in the profile page.
 # Otherwise not article will be listed, though they will still be accessible through URL
 articles:
+  - what-is-the-post
   - getting-started
   - no-cover
   - markdown-demo
