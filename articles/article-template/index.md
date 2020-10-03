@@ -24,7 +24,7 @@ date: 2020-01-01
 # but try to make it two sentences or less.
 excerpt: This article may not be very interesting, but it can be very helpful
 
-# The cover is a link to an image. This link can be an absolute URL (just like below)
+# The cover is a link to an image. This link can be an absolute URL
 # or it can be relative to the folder of your article. For example, if mosaic.png
 # was in your article folder, the value of the 'cover' field would have been
 # 'mosaic.png' without the 'http' thingy before.
@@ -34,7 +34,7 @@ excerpt: This article may not be very interesting, but it can be very helpful
 # background image and the title is going to show with black letters.
 # When there is no cover, the article listing will show a 'The Post' mosaic image.
 # To not use a cover, remove the line below or leave an empty string as the value.
-cover: https://thepost.io/images/mosaic.png
+cover: mosaic.jpg
 
 # Tags are not used yet in The Post, but in the future, we will display them.
 tags:
